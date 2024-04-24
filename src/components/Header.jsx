@@ -10,8 +10,8 @@ const Header = () => {
       </h1> */}
 
       <img
-        src="src/assets/images/TedEx RVCE Logo/logo-white.png"
-        alt="tedXjec"
+        src="../src/assets/images/TedEx RVCE Logo/logo-white.png"
+        alt="tedXrvce"
         className="md:h-28 h-14"
       />
       <Navigation />

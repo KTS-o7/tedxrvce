@@ -76,7 +76,7 @@ const About = () => {
         </div>
         <div className="flex justify-between space-y-10 items-center flex-col">
           <img
-            src="src/assets/images/RVCEBLORE.png"
+            src="../src/assets/images/RVCEBLORE.png"
             alt="tedXrvce"
             className="md:h-20 h-10"
           />
