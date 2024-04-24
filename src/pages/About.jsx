@@ -49,11 +49,7 @@ const About = () => {
         </div>
 
         <div className="flex justify-between space-y-8 items-center flex-col">
-          <img
-            src="src/assets/images/TedEx RVCE Logo/logo-white.png"
-            alt="tedXrvce"
-            className="md:h-36 h-16"
-          />
+          <img src="/logo-white.png" alt="tedXrvce" className="md:h-36 h-16" />
 
           <p className="text-center font-semibold md:text-2xl text-lg border border-white md:p-8 p-4 md:mx-8 mx-4">
             Nestled amidst the Silicon Valley of India, RVCE Bangalore stands as
@@ -76,7 +72,7 @@ const About = () => {
         </div>
         <div className="flex justify-between space-y-10 items-center flex-col">
           <img
-            src="../src/assets/images/RVCEBLORE.png"
+            src="public/RVCEBLORE.png"
             alt="tedXrvce"
             className="md:h-20 h-10"
           />
