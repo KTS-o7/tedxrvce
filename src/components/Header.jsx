@@ -10,7 +10,7 @@ const Header = () => {
       </h1> */}
 
       <img
-        src="public/logo-white.png"
+        src="/logo-white.png"
         alt="tedXrvce"
         className="md:h-28 h-14"
       />

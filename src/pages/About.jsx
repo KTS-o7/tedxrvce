@@ -71,11 +71,7 @@ const About = () => {
           </p>
         </div>
         <div className="flex justify-between space-y-10 items-center flex-col">
-          <img
-            src="public/RVCEBLORE.png"
-            alt="tedXrvce"
-            className="md:h-20 h-10"
-          />
+          <img src="/RVCEBLORE.png" alt="tedXrvce" className="md:h-20 h-10" />
 
           <p className="text-center font-semibold md:text-2xl text-lg border border-white md:p-8 p-4 md:mx-8 mx-4">
             RVCE Bangalore, nestled in the heart of IT Hub, is a premier
