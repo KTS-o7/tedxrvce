@@ -7,7 +7,7 @@ import SpeakerPage from "./pages/SpeakerPage";
 
 import About from "./pages/About";
 import AllSpeakers from "./pages/AllSpeakers";
-import HomePageCarousal from "./components/HomePageCarousal";
+// import HomePageCarousal from "./components/HomePageCarousal";
 
 const speakerPageDetails = [
   {
@@ -28,37 +28,35 @@ const speakerPageDetails = [
 ];
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Homepage />}></Route>
-        <Route path="/ticket" element={<TicketPage />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route
-          path="/tanujain"
-          element={
-            <SpeakerPage
-              information={speakerPageDetails[0].info}
-              achivements={speakerPageDetails[0].achivements}
-              image={speakerPageDetails[0].BannerURL}
-              insta={speakerPageDetails[0].instaLink}
-              linked={speakerPageDetails[0].linkedinLink}
-              tweet={speakerPageDetails[0].twittLink}
-            >
-              <span>T</span>
-              <span>A</span>
-              <span>N</span>
-              <span>U</span>
-              &nbsp;
-              <span>J</span>
-              <span>A</span>
-              <span>I</span>
-              <span>N</span>
-            </SpeakerPage>
-          }
-        ></Route>
-        <Route path="/allspeakers" element={<AllSpeakers />}></Route>
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Homepage />}></Route>
+      <Route path="/ticket" element={<TicketPage />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route
+        path="/tanujain"
+        element={
+          <SpeakerPage
+            information={speakerPageDetails[0].info}
+            achivements={speakerPageDetails[0].achivements}
+            image={speakerPageDetails[0].BannerURL}
+            insta={speakerPageDetails[0].instaLink}
+            linked={speakerPageDetails[0].linkedinLink}
+            tweet={speakerPageDetails[0].twittLink}
+          >
+            <span>T</span>
+            <span>A</span>
+            <span>N</span>
+            <span>U</span>
+            &nbsp;
+            <span>J</span>
+            <span>A</span>
+            <span>I</span>
+            <span>N</span>
+          </SpeakerPage>
+        }
+      ></Route>
+      <Route path="/allspeakers" element={<AllSpeakers />}></Route>
+    </Routes>
   );
 }
 
