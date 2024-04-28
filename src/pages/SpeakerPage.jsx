@@ -45,7 +45,7 @@ const SpeakerPage = ({
         <img
           className=" absolute z-20 md:translate-y-24 bottom-0 pt-12 md:h-full  w-auto"
           src={image}
-          alt=""
+          alt="Speaker banner image"
         />
 
         <div className="w-full absolute text-center text-[60px] z-40 font-bold top-4">
