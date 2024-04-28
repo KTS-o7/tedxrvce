@@ -17,7 +17,7 @@ const speakerPageDetails = [
     instaLink: "https://www.instagram.com/dr.tanujain/",
     linkedinLink: "https://www.linkedin.com/in/dr-tanu-jain-4aa28a131",
     twittLink: "https://twitter.com/DrTanuJain1",
-    BannerURL: "public/banner/banner_img.png",
+    BannerURL: "/banner/banner_img.png",
     achivements: [
       "Former IAS officer of 2015 batch.",
       "Served her excellence as Assistant Director of DRDO.",
