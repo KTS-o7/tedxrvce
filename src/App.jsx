@@ -17,7 +17,7 @@ const speakerPageDetails = [
     instaLink: "https://www.instagram.com/dr.tanujain/",
     linkedinLink: "https://www.linkedin.com/in/dr-tanu-jain-4aa28a131",
     twittLink: "https://twitter.com/DrTanuJain1",
-    BannerURL: "src/assets/images/speakers/banner_img.png",
+    BannerURL: "public/banner/banner_img.png",
     achivements: [
       "Former IAS officer of 2015 batch.",
       "Served her excellence as Assistant Director of DRDO.",
@@ -38,7 +38,7 @@ function App() {
           <SpeakerPage
             information={speakerPageDetails[0].info}
             achivements={speakerPageDetails[0].achivements}
-            image={"/src/assets/images/speakers/banner_img.png"}
+            image={speakerPageDetails[0].BannerURL}
             insta={speakerPageDetails[0].instaLink}
             linked={speakerPageDetails[0].linkedinLink}
             tweet={speakerPageDetails[0].twittLink}
