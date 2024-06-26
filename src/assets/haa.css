@@ -9,7 +9,7 @@
   font-style: normal;
 }
 [data-icon]:before {
-  font-family: "linea-basic-10" !important;
+  font-family: "linea-basic-10", sans-serif !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -22,7 +22,7 @@
 }
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "linea-basic-10" !important;
+  font-family: "linea-basic-10", sans-serif !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -1278,8 +1278,6 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   width: 75%;
   background-color: #fff;
   -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
@@ -1836,7 +1834,7 @@ body {
       to(rgba(40, 180, 133, 0.8))
     ),
     url(./../public/img/tours/tour-2-cover.jpg);
-    background-image: linear-gradient(
+  background-image: linear-gradient(
       to right bottom,
       rgba(231, 231, 253, 0.8),
       rgba(3, 0, 93, 0.8)
@@ -1870,10 +1868,10 @@ body {
   position: relative;
   padding: 15rem 0;
   background: linear-gradient(
-      to right bottom,
-      rgba(231, 231, 253, 0.8),
-      rgba(116, 111, 255, 0.8)
-    );
+    to right bottom,
+    rgba(231, 231, 253, 0.8),
+    rgba(116, 111, 255, 0.8)
+  );
 }
 @media only screen and (max-width: 56.25em) {
   .section-stories {
